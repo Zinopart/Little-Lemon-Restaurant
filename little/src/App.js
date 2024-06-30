@@ -1,13 +1,17 @@
 import './App.css';
+import './Header.js'
+import './Nav.js';
+import './Body.js';
+import './Footer.js';
 
 function App() {
   return (
-    <div className="App">
-      <header></header>
-      <nav></nav>
-      <main></main>
-      <footer></footer>
-    </div>
+    <main>
+      <Header />
+      <Nav />
+      <Body />
+      <Footer />
+    </main>
   );
 }
 
