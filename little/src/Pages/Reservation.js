@@ -1,5 +1,13 @@
+import React from "react";
+import Header from "../Components/Header"
+
 const Reservations = () => {
-    return <h1>Reservations</h1>;
-  };
-  
+    return (
+      <div>
+      <Header />
+      <h1>Reservations</h1>
+      </div>
+    )
+  }
+
   export default Reservations;
