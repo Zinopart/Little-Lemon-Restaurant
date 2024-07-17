@@ -74,9 +74,6 @@ const Body = () => {
         <img>Adrian and Mario A</img>
         <img>Adrian and Mario B</img>
     </section>
-    <section id="footer">
-
-    </section>
 </body>
     );
 }
