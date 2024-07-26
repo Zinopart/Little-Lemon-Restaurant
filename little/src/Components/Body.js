@@ -70,3 +70,5 @@ const Body = () => {
 </body>
     );
 }
+
+export default Body;
