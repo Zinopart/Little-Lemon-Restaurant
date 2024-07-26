@@ -1,9 +1,10 @@
+import React from "react";
 import { Outlet, Link } from "react-router-dom";
 
 const Nav = () =>{
     return(
 <>
-<nav>
+<nav className="navigation">
     <ul>
         <li>
         <Link to="/">Home</Link>

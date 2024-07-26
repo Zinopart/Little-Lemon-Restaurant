@@ -1,0 +1,20 @@
+.navigation ul {
+    display: grid;
+}
+.navigation ul li{
+    padding: 0, 20px;
+}
+.navigation ul li Link {
+    font-size: medium;
+}
+.navigation ul li Link.hover {
+    color: #EE9972;
+}
+.navigation ul li Link.active {
+    color: #FBDABB;
+}
+@media screen and (max-width: 1024px) {
+    .navigation {
+        display: none;
+    }
+}
