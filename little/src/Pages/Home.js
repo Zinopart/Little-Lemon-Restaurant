@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../Components/Header";
-import HeroSection from '../components/HeroSection';
-import Specials from '../components/Specials';
-import Footer from '../components/Footer';
+import Header from "../Components/Header.js";
+import HeroSection from "../Components/HeroSection.js";
+import Specials from "../Components/Specials.js";
+import Footer from "../Components/Footer.js";
 
 
 

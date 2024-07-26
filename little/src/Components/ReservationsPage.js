@@ -1,6 +1,6 @@
-import React from 'react';
-/*import "./styles/ReservationsContent.css"*/;
-import Form from './Form';
+import React from "react";
+import Form from "./Form.js";
+import "./Styles/ReservationForm.css";
 
 function ReservationsPage() {
 return (

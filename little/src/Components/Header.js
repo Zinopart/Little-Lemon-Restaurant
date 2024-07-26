@@ -1,12 +1,12 @@
 /*import ReactDOM from 'react-dom/client';*/
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from "./Pages/About";
-import Home from "./Pages/Home";
-import Login from "./Pages/Login";
-import Menu from "./Pages/Menu";
-import OrderOnline from "./Pages/OrderOnline";
-import Reservations from "./Pages/Reservations";
-import NoPage from "./Pages/NoPage";
+import About from "../Pages/About.js";
+import Home from "../Pages/Home.js";
+import Login from "../Pages/Login.js";
+import Menu from "../Pages/Menu.js";
+import OrderOnline from "../Pages/OrderOnline.js";
+import Reservations from "../Pages/Reservations.js";
+import NoPage from "../Pages/NoPage.js";
 
 const Header = () => {
     return(

@@ -1,7 +1,7 @@
 import React from "react";
 /*import "../components/styles/HeroSection.css";
 import { NavLink } from 'react-router-dom';*/
-import HeroImage from "../components/assets/chef-holding-tapas.jpg"
+import HeroImage from "../Components/Assets/chef-holding-tapas.jpg"
 
 const HeroSection = () => {
     return (
