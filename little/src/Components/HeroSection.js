@@ -1,6 +1,5 @@
 import React from "react";
-/*import "../components/styles/HeroSection.css";
-import { NavLink } from 'react-router-dom';*/
+import "../Components/Styles/HeroSection.css";
 import HeroImage from "../Components/Assets/chef-holding-tapas.jpg"
 
 const HeroSection = () => {
@@ -10,7 +9,7 @@ const HeroSection = () => {
                 <h2>Chicago</h2>
                 <p>We are a family owned Mediteranian resturant, focused on traditional recipes served with a modern twist.</p>
                 <button>Reserve a table</button>
-                <img src={HeroImage}></img>
+                <img src={HeroImage} alt="Chef's hands are holding 3 tapas on a black stone plate."></img>
             </section>)}
 
 export default HeroSection

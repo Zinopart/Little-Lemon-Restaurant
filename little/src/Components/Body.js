@@ -1,3 +1,6 @@
+import React from "react";
+import "../Components/Styles/Body.css"
+
 const Body = () => {
     return(
 <body>
