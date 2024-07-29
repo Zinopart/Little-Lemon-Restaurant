@@ -1,10 +1,11 @@
 import React from "react";
 import "../Components/Styles/Footer.css"
+import Logo from "../Components/Assets/little-lemon-logo.jpg"
 
 const Footer = () => {
     return(
 <footer>
-    <img name="little-lemon-logo" alt="logo showing a yellow lemon and green text saying Little Lemon"></img>
+    <img src= {Logo} alt="Little Lemon Logo"></img>
     <nav>
         <ul name= "footer-navigation">
             <h1>Navigation</h1>
