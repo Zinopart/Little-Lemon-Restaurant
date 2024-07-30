@@ -1,0 +1,38 @@
+.hero-section {
+    display: flex;
+    background-color: #495E57;
+    color: #EDEFEE;
+}
+.hero-section h1 {
+    color: #F4CE14
+}
+.hero-section h2 {
+    font-size: 40pt;
+    font-weight: bold;
+}
+.hero-section p {
+    font-family: "Markazi Text", serif;
+    font-size: 40pt;
+}
+.btn {
+    background-color: #F4CE14;
+    color: #333333;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #EE9972;
+}
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    position: absolute;
+    overflow: hidden;
+}

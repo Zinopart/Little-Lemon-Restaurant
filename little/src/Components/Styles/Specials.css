@@ -1,0 +1,33 @@
+.specials {
+    display: flex;
+    background-color: #edefee;
+    color: #333333;
+}
+.specials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.specials-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+}
+.specials-container h3 {
+    font-family:"Karla", sans-serif;
+    font-size: 18pt;
+}
+.btn {
+    background-color: #F4CE14;
+    color: #333333;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 40pt;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #EE9972;
+}
+.price {
+    color: #EE9972
+}

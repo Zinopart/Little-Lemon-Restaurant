@@ -4,11 +4,11 @@ import Logo from "../Components/Assets/little-lemon-logo.jpg"
 
 const Footer = () => {
     return(
-<footer>
+<footer className="footer">
     <img src= {Logo} alt="Little Lemon Logo"></img>
     <nav>
-        <ul name= "footer-navigation">
-            <h1>Navigation</h1>
+        <ul className="footer-navigation">
+            <p>Navigation</p>
                 <li>Home</li>
                 <li>About</li>
                 <li>Menu</li>
@@ -16,14 +16,14 @@ const Footer = () => {
                 <li>Order Online</li>
                 <li>Login</li>
         </ul>
-        <ul name = "contact">
-            <h1>Contact</h1>
+        <ul className = "contact">
+            <p>Contact</p>
                 <li>Address</li>
                 <li>Phone Number</li>
                 <li>Email</li>
         </ul>
-        <ul name= "links">
-            <h1>Links</h1>
+        <ul className= "links">
+            <p>Links</p>
                 <li>Address</li>
                 <li>Phone Number</li>
                 <li>Email</li>

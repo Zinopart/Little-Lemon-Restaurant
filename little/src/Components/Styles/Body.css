@@ -1,0 +1,17 @@
+.testimonials {
+    display: grid;
+    background-color: #F4CE14;
+}
+.review-marcus{}
+.review-mosalowa{}
+.review-ann{}
+.review-dimitri{}
+
+.about {
+    display: flex;
+    background-color: #495E57;
+    color: #EDEFEE;
+}
+.about h1 {
+    color: #F4CE14;
+}

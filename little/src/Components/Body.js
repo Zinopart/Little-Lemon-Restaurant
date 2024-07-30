@@ -15,30 +15,30 @@ import AdrianAndMario from "../Components/Assets/adrian-and-mario.png"
 const Body = () => {
     return(
 <body>
-    <section id="testimonials">
+    <section className="testimonials">
         <h1>Testimonials</h1>
-        <div id="review-marcus">
+        <div className="review-marcus">
             <h2>Rating</h2>
             <img src={LemonRatingFour}></img>
             <img src={Marcus}></img>
             <h2>Marcus</h2>
             <p>“Great date spot! My wife and I really enjoyed the atmosphere.”</p>
         </div>
-        <div id="review-mosalowa">
+        <div className="review-mosalowa">
             <h2>Rating</h2>
             <img src={LemonRatingThreePointFive}></img>
             <img src={Mosalowa}></img>
             <h2>Mosalowa</h2>
             <p>“Had a good time here with my family. Service was fast.”</p>
         </div>
-        <div id="review-ann">
+        <div className="review-ann">
             <h2>Rating</h2>
             <img src={LemonRatingFive}></img>
             <img src={Ann}></img>
             <h2>Ann</h2>
             <p>“Best Mediterranean food in Chicago!”</p>
         </div>
-        <div id="review-dimitri">
+        <div className="review-dimitri">
             <h2>Rating</h2>
             <img src={LemonRatingFour}></img>
             <img src={Dimitri}></img>
@@ -46,11 +46,15 @@ const Body = () => {
             <p>“My coworkers and I like grabbing a quick lunch here.”</p>
         </div>
     </section>
-    <section id="about">
-        <h1>Little Lemon</h1>
-        <h2>Chicago</h2>
-        <p>Little Lemon opened in 1995 by two Italian brothers, Adrian and Mario. Despite the city's diversity, the two brothers recognized the lack of Mediterranean cuisine in Chicago,  and were inspired to bring the flavors of their hometown in Italy to the people of Chicago. The two brothers continue to oversee the Little Lemon restaurant, nearly thirty years later.</p>
-        <img src={AdrianAndMario}></img>
+    <section className="about">
+        <div>
+            <h1>Little Lemon</h1>
+            <h2>About</h2>
+            <p>Little Lemon opened in 1995 by two Italian brothers, Adrian and Mario. Despite the city's diversity, the two brothers recognized the lack of Mediterranean cuisine in Chicago,  and were inspired to bring the flavors of their hometown in Italy to the people of Chicago. The two brothers continue to oversee the Little Lemon restaurant, nearly thirty years later.</p>
+        </div>
+        <div>
+            <img src={AdrianAndMario}></img>
+        </div>
     </section>
 </body>
     );
