@@ -2,3 +2,4 @@ header {
     display: grid;
     background-color:#edefee;
 }
+@media screen and (max-width: 1024px) {}

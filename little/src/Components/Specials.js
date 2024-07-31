@@ -9,7 +9,7 @@ import DeliveryIcon from "../Components/Assets/delivery-icon.jpg"
 import { Link } from "react-router-dom";
 
 
-function Specials() {
+const Specials = () =>{
     return (
         <div>
       <section className="specials">

@@ -14,3 +14,6 @@ p {
   font-family:"Karla", sans-serif;
   font-size: 16pt;
 }
+img {
+  border-radius: 20px;
+}

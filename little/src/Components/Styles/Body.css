@@ -1,12 +1,13 @@
 .testimonials {
-    display: grid;
+    display: flex;
     background-color: #F4CE14;
 }
-.review-marcus{}
-.review-mosalowa{}
-.review-ann{}
-.review-dimitri{}
-
+.testimonials h1 {
+    color: #495E57
+}
+.testimonials h2, p{
+    color: #333333;
+}
 .about {
     display: flex;
     background-color: #495E57;
@@ -14,4 +15,7 @@
 }
 .about h1 {
     color: #F4CE14;
+}
+.about p{
+    color: #EDEFEE
 }

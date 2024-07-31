@@ -13,6 +13,7 @@
 .hero-section p {
     font-family: "Markazi Text", serif;
     font-size: 40pt;
+    color: #EDEFEE;
 }
 .btn {
     background-color: #F4CE14;
@@ -36,3 +37,5 @@
     position: absolute;
     overflow: hidden;
 }
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 659px) {}
