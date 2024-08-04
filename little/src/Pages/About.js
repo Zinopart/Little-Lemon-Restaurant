@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../Components/Header.js"
-import Nav from "../Components/Nav.js"
 import Footer from "../Components/Footer";
 import AdrianAndMario from "../Components/Assets/adrian-and-mario.png"
 
@@ -8,7 +7,6 @@ const About = () => {
   return (
     <div>
     <Header />
-    <Nav />
     <section id="about">
         <h1>Little Lemon</h1>
         <h2>About</h2>

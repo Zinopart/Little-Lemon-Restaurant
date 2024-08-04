@@ -1,5 +1,61 @@
-header {
-    display: grid;
-    background-color:#edefee;
+.header-container{
+    background-color: #edefee;
+    width: 100%;
 }
-@media screen and (max-width: 1024px) {}
+.header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    width: 80%;
+    margin: 0, auto;
+}
+.logo img{
+    width: 12.5rem;
+}
+.navigation{
+    font-family:"Karla", sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+}
+.navigation ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+.navigation ul li{
+    float: left;
+}
+.navigation ul li a{
+    display: block;
+    padding: 14px, 20px;
+    color: #333333;
+    text-decoration: none;
+}
+.navigation ul a:hover {
+    color: #EE9972;
+}
+.navigation ul a:active {
+    color: #FBDABB;
+}
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 10px, 30px;
+        width: 100%;
+    }
+    .logo img{
+        width: 9.375rem;
+    }
+    .navigation ul {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        position: absolute;
+        padding: 80px 30px 20px 120px;
+    }
+    .navigation ul li a{
+        right: 0;
+        top: 0;
+        padding: 10px 0;
+        font-size: 12pt;
+    }
+}

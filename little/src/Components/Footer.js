@@ -5,9 +5,12 @@ import Logo from "../Components/Assets/little-lemon-logo.jpg"
 
 const Footer = () => {
     return(
-<footer className="footer">
-    <img src= {Logo} alt="Little Lemon Logo"></img>
-    <nav>
+<footer>
+    <div className="logo">
+        <img src= {Logo} alt="Little Lemon Logo"></img>
+    </div>
+    <div className="footer-container">
+        <nav>
         <ul className="footer-navigation">
             <p>Navigation</p>
                 <Link to="/">Home</Link>
@@ -34,7 +37,8 @@ const Footer = () => {
         <ul>
             <p>© 2024 Little Lemon Ltd. All rights reserved</p>
         </ul>
-    </nav>
+        </nav>
+    </div>
     <Outlet></Outlet>
 </footer>
     );

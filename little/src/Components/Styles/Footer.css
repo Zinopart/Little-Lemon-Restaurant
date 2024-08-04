@@ -1,13 +1,16 @@
 footer {
-    display: flex;
     background-color: #edefee;
     font-family:"Karla", sans-serif;
     font-size: 18pt;
-}
-footer ul{
-    display: grid;
     list-style-type: none;
 }
+.footer-container {
+    display: grid;
+    grid-template-columns: 30%, 30%, 30%;
+    gap: 20px;
+    
+}
+
 footer p {
     font-size: 20pt;
     font-weight: bold;

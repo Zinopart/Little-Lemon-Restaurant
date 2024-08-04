@@ -1,16 +1,25 @@
-.hero-section {
-    display: flex;
+.hero-container{
     background-color: #495E57;
-    color: #EDEFEE;
+    width: 100%;
 }
-.hero-section h1 {
+.hero-section {
+    color: #EDEFEE;
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+    padding: 60px;
+}
+.section-left{
+    width: 80%;
+}
+.section-left h1 {
     color: #F4CE14
 }
-.hero-section h2 {
+.section-left h2 {
     font-size: 40pt;
-    font-weight: bold;
 }
-.hero-section p {
+.section-left p {
     font-family: "Markazi Text", serif;
     font-size: 40pt;
     color: #EDEFEE;
@@ -22,20 +31,28 @@
     border-radius: 20px;
     font-size: 40pt;
     font-weight: bold;
+    border: none;
 }
-
 .btn:hover {
     background-color: #EE9972;
+}
+.section-right {
+    width: 80%;
+    position: relative;
 }
 .image-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    width: 100%;
     border-radius: 20px;
+    height: 31.25rem;
+    margin-top: 11.25rem;
+    margin-left: 3.75rem;
     position: absolute;
-    overflow: hidden;
+    overflow:hidden;
+}
+.image-box img{
+    width: 100%;
 }
 @media screen and (max-width: 1024px) {}
 @media screen and (max-width: 659px) {}
