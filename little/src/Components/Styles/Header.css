@@ -1,58 +1,57 @@
-.header-container{
+header{
     background-color: #edefee;
     width: 100%;
 }
-.header {
-    display: inline-flex;
+.header-container {
+    display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 60px;
-    width: 80%;
     margin: 0, auto;
 }
 .logo img{
     width: 12.5rem;
 }
-.navigation{
+.header-nav-content{
     font-family:"Karla", sans-serif;
     font-size: 16pt;
     font-weight: bold;
 }
-.navigation ul {
+.header-nav-content ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     list-style-type: none;
-    overflow: hidden;
 }
-.navigation ul li{
+.header-nav-content ul li{
     float: left;
 }
-.navigation ul li a{
-    display: block;
+.header-nav-content ul li a{
     padding: 14px, 20px;
     color: #333333;
     text-decoration: none;
 }
-.navigation ul a:hover {
+.header-nav-content ul a:hover {
     color: #EE9972;
 }
-.navigation ul a:active {
+.header-nav-content ul a:active {
     color: #FBDABB;
 }
 @media screen and (max-width: 1024px) {
-    .header {
+    .header-container {
         padding: 10px, 30px;
         width: 100%;
     }
     .logo img{
         width: 9.375rem;
     }
-    .navigation ul {
+    .header-nav-content ul {
         flex-direction: column;
         align-items: flex-end;
         justify-content: flex-start;
         position: absolute;
         padding: 80px 30px 20px 120px;
     }
-    .navigation ul li a{
+    .header-nav-content ul li a{
         right: 0;
         top: 0;
         padding: 10px 0;

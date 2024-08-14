@@ -17,4 +17,6 @@ p {
 img {
   border-radius: 20px;
 }
-
+li, .btn{
+  cursor: pointer;
+}

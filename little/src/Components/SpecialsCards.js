@@ -6,7 +6,6 @@ import Bruschetta from "../Components/Assets/bruschetta.jpg"
 import VegetarianZiti from "../Components/Assets/vegetarian-ziti.jpg"
 import DeliveryIcon from "../Components/Assets/delivery-icon.jpg"
 
-
 const SpecialsCards = () =>{
     return (
       <div className="specials-container">
@@ -32,7 +31,7 @@ const SpecialsCards = () =>{
           <div className="image-container">
             <img src= {Bruschetta}></img>
          </div>
-         <div className="specials-card-name">
+      <div className="specials-card-name">
           <h3>Bruschetta</h3>
           <p className="price">$7.99</p>
         </div>
@@ -45,11 +44,12 @@ const SpecialsCards = () =>{
               <img src= {DeliveryIcon}></img>
             </div>
           </div>
+        </div>
         <div className="veggie-ziti">
           <div className="image-container">
             <img src= {VegetarianZiti}></img>
           </div>
-          <div className="specials-card-name">
+      <div className="specials-card-name">
             <h3>Vegetarian Ziti</h3>
             <p className="price">$11.99</p>
           </div>
@@ -63,7 +63,6 @@ const SpecialsCards = () =>{
               </div>
           </div>
         </div>
-      </div>
     </div>
         )
     };

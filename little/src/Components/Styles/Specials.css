@@ -9,7 +9,8 @@
     justify-content: space-between;
     align-items: center;
     color: #333333;
-    margin: auto;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 .btn {
     background-color: #F4CE14;

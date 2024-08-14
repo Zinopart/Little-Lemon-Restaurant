@@ -15,39 +15,59 @@ import AdrianAndMario from "../Components/Assets/adrian-and-mario.png"
 const Body = () => {
     return(
 <body>
+    <div className="testimonials-container">
+        <div className="testimonials-header">
+            <h1>Testimonials</h1>
+        </div>
     <section className="testimonials">
-        <h1>Testimonials</h1>
-        <div className="review-marcus">
-            <h2>Rating</h2>
-            <img src={LemonRatingFour}></img>
-            <img src={Marcus}></img>
+        <div className="review-container">
+            <div className="rating-container">
+                <h2>Rating</h2>
+                <img src={LemonRatingFour}></img>
+            </div>
+            <div className="image container">
+                <img src={Marcus}></img>
+            </div>
             <h2>Marcus</h2>
             <p>“Great date spot! My wife and I really enjoyed the atmosphere.”</p>
         </div>
-        <div className="review-mosalowa">
-            <h2>Rating</h2>
-            <img src={LemonRatingThreePointFive}></img>
-            <img src={Mosalowa}></img>
+        <div className="review-container">
+            <div className="rating-container">
+                <h2>Rating</h2>
+                <img src={LemonRatingThreePointFive}></img>
+            </div>
+            <div className="image container">
+                <img src={Mosalowa}></img>
+            </div>
             <h2>Mosalowa</h2>
             <p>“Had a good time here with my family. Service was fast.”</p>
         </div>
-        <div className="review-ann">
-            <h2>Rating</h2>
-            <img src={LemonRatingFive}></img>
-            <img src={Ann}></img>
+        <div className="review-container">
+            <div className="rating-container">
+                <h2>Rating</h2>
+                <img src={LemonRatingFive}></img>
+            </div>
+            <div className="image container">
+                <img src={Ann}></img>
+            </div>
             <h2>Ann</h2>
             <p>“Best Mediterranean food in Chicago!”</p>
         </div>
-        <div className="review-dimitri">
-            <h2>Rating</h2>
-            <img src={LemonRatingFour}></img>
-            <img src={Dimitri}></img>
+        <div className="review-container">
+            <div className="rating-container">
+                <h2>Rating</h2>
+                <img src={LemonRatingFour}></img>
+            </div>
+            <div className="image-container">
+                <img src={Dimitri}></img>
+            </div>
             <h2>Dimitri</h2>
             <p>“My coworkers and I like grabbing a quick lunch here.”</p>
         </div>
     </section>
+</div>
     <section className="about">
-        <div>
+        <div className="text-container">
             <h1>Little Lemon</h1>
             <h2>About</h2>
             <p>Little Lemon opened in 1995 by two Italian brothers, Adrian and Mario. Despite the city's diversity, the two brothers recognized the lack of Mediterranean cuisine in Chicago,  and were inspired to bring the flavors of their hometown in Italy to the people of Chicago. The two brothers continue to oversee the Little Lemon restaurant, nearly thirty years later.</p>

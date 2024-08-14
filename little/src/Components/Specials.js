@@ -3,8 +3,6 @@ import "./Styles/Specials.css";
 import { NavLink } from 'react-router-dom';
 import SpecialsCards from "./SpecialsCards";
 
-
-
 const Specials = () =>{
     return (
   <div>
