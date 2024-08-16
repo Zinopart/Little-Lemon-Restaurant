@@ -5,48 +5,36 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #495E57
+    color: #495E57;
 }
 .testimonials {
     display: flex;
     overflow: scroll;
+    scroll-behavior: auto;
+    width: 100%;
 }
 .testimonials h2, p{
     color: #333333;
 }
 .review-container{
     background-color: #EDEFEE;
-    margin: 50px;
+    margin: 20px;
     padding: 20px;
     border: 3px solid #EE9972;
     border-radius: 20px;
+    width: 25%;
+    height: 600px;
 }
 .rating-container{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.image-conatiner{
-    width: 100%;
+.image-container{
+    max-width: 100%;
     height: auto;
 }
-.image-conatiner img {
+.image-container img {
     width: 100%;
-    height: auto;
-}
-
-.about {
-    display: flex;
-    background-color: #495E57;
-    color: #EDEFEE;
-    padding: 60px;
-}
-.about h1 {
-    color: #F4CE14;
-}
-.about p{
-    color: #EDEFEE
-}
-.text-container{
-    margin-left: 200px;
+    height: 200px;
 }

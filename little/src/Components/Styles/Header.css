@@ -15,11 +15,12 @@ header{
     font-family:"Karla", sans-serif;
     font-size: 16pt;
     font-weight: bold;
+    width: 100%;
 }
 .header-nav-content ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style-type: none;
 }
 .header-nav-content ul li{

@@ -2,7 +2,8 @@ import React from "react";
 import Header from "../Components/Header.js";
 import HeroSection from "../Components/HeroSection.js";
 import Specials from "../Components/Specials.js";
-import Body from "../Components/Body.js";
+import Testimonials from "../Components/Testimonials.js";
+import AboutHome from "../Components/AboutHome.js";
 import Footer from "../Components/Footer.js";
 
 
@@ -13,7 +14,8 @@ const Home = () => {
   <Header />
   <HeroSection />
   <Specials />
-  <Body />
+  <Testimonials />
+  <AboutHome />
   <Footer />
   </div>
   )
