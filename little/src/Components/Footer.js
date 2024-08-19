@@ -47,8 +47,8 @@ const Footer = () => {
             <ul className= "hours">
                 <p>Hours</p>
                     <li>Mon - Wed: 11:00AM - 6:00PM</li>
-                    <li>Fri: 12:00PM - 1:00AM</li>
-                    <li>Sat - Sun: 10:30AM - 12:00AM</li>
+                    <li>Fri: 12:00PM - 11:00PM</li>
+                    <li>Sat - Sun: 10:30AM - 11:00PM</li>
             </ul>
         </nav>
     </div>

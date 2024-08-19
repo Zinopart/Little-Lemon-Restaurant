@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Components/Header";
-import ReservationsPage from '../Components/ReservationPage';
+import BookingPage from '../Components/BookingPage';
 import Footer from "../Components/Footer";
 
 
@@ -8,7 +8,7 @@ const Reservations = () => {
     return (
       <div>
       <Header />
-      <ReservationsPage></ReservationsPage>
+      <BookingPage></BookingPage>
       <Footer></Footer>
       </div>
     )
