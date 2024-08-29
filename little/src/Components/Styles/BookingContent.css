@@ -1,5 +1,5 @@
 .res-content-wrapper {
-    background-image: url(restaurant-background.jpg);
+    background-image: url("../Assets/restaurant-background.jpg");
     width: 100%;
     background-size: cover;
     background-color: #333333;
