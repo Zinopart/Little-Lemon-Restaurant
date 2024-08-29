@@ -88,7 +88,7 @@ function BookingContent() {
                                 name="name"
                                 onChange={onChangeHandler}
                             />
-                            <span className="non-valid">{formError.name}</span>
+                             <div data-testid="non-valid"><span>{formError.name}</span></div>
                         </div>
                         <div className="field">
                             <label htmlFor="email">Email</label>
@@ -98,7 +98,7 @@ function BookingContent() {
                                 name="email"
                                 onChange={onChangeHandler}
                             />
-                            <span className="non-valid">{formError.email}</span>
+                            <div data-testid="non-valid"><span>{formError.email}</span></div>
                         </div>
                         <div className="field">
                             <label htmlFor="telephone">Telephone</label>
@@ -108,7 +108,7 @@ function BookingContent() {
                                 name="telephone"
                                 onChange={onChangeHandler}
                             />
-                            <span className="non-valid">{formError.telephone}</span>
+                            <div data-testid="non-valid"><span>{formError.telephone}</span></div>
                         </div>
                         <div className="guestsdate">
                             <div className="field occasion">
@@ -132,17 +132,17 @@ function BookingContent() {
                                     name="guests"
                                     onChange={onChangeHandler}
                                 />
-                                <span className="non-valid">{formError.guests}</span>
+                                <div data-testid="non-valid"><span>{formError.guests}</span></div>
                             </div>
                         </div>
                         <div className="field">
-                                <label htmlFor="date">Date & Time</label>
+                                <label htmlFor="date">Date and Time</label>
                                 <input
                                     type="datetime-local"
                                     name="date"
                                     onChange={onChangeHandler}
                                 />
-                                <span className="non-valid">{formError.date}</span>
+                                <div data-testid="non-valid"><span>{formError.date}</span></div>
                             </div>
                         <button className="reserve-btn" type="submit">Reserve</button>
                     </fieldset>

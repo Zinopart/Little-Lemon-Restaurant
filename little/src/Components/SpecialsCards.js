@@ -11,7 +11,7 @@ const SpecialsCards = () =>{
       <div className="specials-container">
         <div className="greek-salad">
           <div className="image-container">
-            <img src= {GreekSalad}></img>
+            <img alt="brightly lit image of a Greek salad" src= {GreekSalad}></img>
           </div>
           <div className="specials-card-name">
           <h3>Greek Salad</h3>
@@ -23,13 +23,13 @@ const SpecialsCards = () =>{
               <NavLink to ="/orderOnline">Order Delivery!</NavLink>
             </div>
             <div className="image-container-delivery">
-              <img src= {DeliveryIcon}></img>
+              <img alt="person on a bike icon for delivery" src= {DeliveryIcon}></img>
             </div>
           </div>
         </div>
         <div className="bruschetta">
           <div className="image-container">
-            <img src= {Bruschetta}></img>
+            <img alt="brightly lit image of a plate of Bruschetta" src= {Bruschetta}></img>
          </div>
       <div className="specials-card-name">
           <h3>Bruschetta</h3>
@@ -41,13 +41,13 @@ const SpecialsCards = () =>{
               <NavLink to ="/orderOnline">Order Delivery!</NavLink>
             </div>
             <div className="image-container-delivery">
-              <img src= {DeliveryIcon}></img>
+              <img alt="person on a bike icon for delivery" src= {DeliveryIcon}></img>
             </div>
           </div>
         </div>
         <div className="veggie-ziti">
           <div className="image-container">
-            <img src= {VegetarianZiti}></img>
+            <img alt="brightly lit image of a plate of Vegetarian Ziti" src= {VegetarianZiti}></img>
           </div>
       <div className="specials-card-name">
             <h3>Vegetarian Ziti</h3>
@@ -59,7 +59,7 @@ const SpecialsCards = () =>{
                 <NavLink to ="/orderOnline">Order Delivery!</NavLink>
               </div>
               <div className="image-container-delivery">
-                <img src= {DeliveryIcon}></img>
+                <img alt="person on a bike icon for delivery" src= {DeliveryIcon}></img>
               </div>
           </div>
         </div>
