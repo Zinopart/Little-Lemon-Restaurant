@@ -151,6 +151,6 @@ function BookingContent() {
         </div>
     </div>
   )
-}
+};
 
 export default BookingContent
